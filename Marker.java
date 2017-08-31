@@ -12,7 +12,12 @@ public class Marker
 		canWrite = false;
 		isOpen = false;
 	}
-	
+	public Marker(Color color, boolean canWrite, boolean isOpen)
+	{
+		this.color = color;
+		this.canWrite = canWrite;
+		this.isOpen = isOpen;
+	}
 	public void setColor(Color color)
 	{
 		this.color = color;
