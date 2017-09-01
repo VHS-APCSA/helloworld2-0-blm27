@@ -13,8 +13,16 @@ public class HelloWorld
     	redPen.setColor(Color.red);
     	newColor = redPen.getColor();
     	System.out.println(newColor);
-    	boolean canWrite = redPen.
+    	boolean canWrite = redPen.getCanWrite();
+    	System.out.println(canWrite);
+    	redPen.setCanWrite(true);
+    	canWrite = redPen.getCanWrite();
+    	System.out.println(canWrite);
     	
-    			
+    	redPen.write("Hello World!");
+    	redPen.setColor(new Color(120, 0, 200));
+    	redPen.write("This is magenta");
+    	redPen.setColor(Color.green);
+    	redPen.write("Test");
     }
 }
