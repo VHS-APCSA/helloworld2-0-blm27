@@ -22,6 +22,10 @@ public class Marker
 	}
 	public void write(String msg)
 	{
+		if(!isOpen)
+		{
+			this.setIsOpen(true);
+		}
 		JLabel label = new JLabel(msg);
 		label.setForeground(color);
 		JOptionPane.showMessageDialog(null, label);
@@ -33,6 +37,10 @@ public class Marker
 	public void setCanWrite(boolean canWrite)
 	{
 		this.canWrite = canWrite;
+	}
+	public void setIsOpen(boolean isOpen)
+	{
+		this.isOpen = isOpen;
 	}
 	public Color getColor()
 	{
