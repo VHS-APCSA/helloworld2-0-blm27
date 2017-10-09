@@ -21,3 +21,17 @@ public class HelloWorld
        System.out.println(myList);
     }
 }
+
+//{
+//	Scanner input = new Scanner(System.in)
+//	ArrayList<Integer> list = new ArrayList<Integer>();//
+//	int num = 0; //
+//	while(num >= 0) //
+//	{
+//		num = input.nextInt();
+//		if(num >= 0)
+//		{
+//			list.add(num);
+//		}
+//	}
+//}

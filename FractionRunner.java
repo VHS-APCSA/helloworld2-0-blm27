@@ -12,5 +12,5 @@ public class FractionRunner
 		Fraction bad = new Fraction();
 		double num = bad.toDecimal();
 		System.out.println(num);
-	}
+}
 }
