@@ -16,3 +16,11 @@ public class MyStringRunner
 		input.close();
 	}
 }
+//Vacaville - [0,1)
+//word.stubstring(0,1) - first letter
+//word.
+
+
+
+
+//
